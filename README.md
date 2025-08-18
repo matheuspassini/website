@@ -7,9 +7,19 @@ A modern, responsive personal portfolio website showcasing my projects and skill
 - **Modern Design**: Clean and professional design with smooth animations
 - **Responsive Layout**: Fully responsive design that works on all devices
 - **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content
-- **Project Showcase**: Dedicated section highlighting GitHub projects
-- **Skills Display**: Visual representation of technical skills
+- **Project Showcase**: Dedicated section highlighting GitHub projects with latest updates
+- **Skills Display**: Visual representation of technical skills including latest technologies
 - **Contact Information**: Easy access to professional social links
+
+## 🚀 Featured Project
+
+### Enterprise Data Lake - Tech Company Outsourcing Solution
+The portfolio showcases a comprehensive Data Lake implementation featuring:
+- **Medallion Architecture**: Bronze, Silver, and Gold layers
+- **Advanced Data Quality**: Automated flag-based monitoring system
+- **Professional Logging**: Python decorators with execution timing and record counting
+- **Business Intelligence**: 10 categories of analytics and insights
+- **Production Ready**: Docker containerization with YARN cluster mode
 
 ## 🚀 Technologies Used
 
