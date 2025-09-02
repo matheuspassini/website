@@ -48,6 +48,7 @@
                     Data Engineer & Electrical Engineer passionate about technology and innovation
                 </p>
                 <p class="hero-description">
+                    Building scalable data infrastructure with AWS, Terraform, and modern data architectures. 
                     Transforming data into valuable insights and creating solutions that make a difference
                 </p>
                 <div class="hero-buttons">
@@ -85,12 +86,14 @@
                 <div class="about-text">
                     <p>
                         I'm a curious Electrical Engineer from Brazil, currently navigating the exciting challenges 
-                        of Data Engineering and Programming. My passion lies at the intersection of Electrical Engineering: 
+                        of Data Engineering and Programming. My passion lies at the intersection of Electrical Engineering, 
                         Computer Science, Data, and Programming.
                     </p>
                     <p>
-                        I have unwavering faith in the transformative potential of data-driven choices and the magic of 
-                        programming, where intangible concepts take shape and create real, meaningful change.
+                        I specialize in building scalable data infrastructure using modern cloud technologies like AWS, 
+                        Infrastructure as Code with Terraform, and implementing advanced data architectures including Data Lakes 
+                        and Data Mesh concepts. I have unwavering faith in the transformative potential of data-driven choices 
+                        and the magic of programming, where intangible concepts take shape and create real, meaningful change.
                     </p>
                     <div class="skills">
                         <h3>Skills</h3>
@@ -99,6 +102,7 @@
                             <span class="skill-tag">PySpark</span>
                             <span class="skill-tag">Hadoop</span>
                             <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">AWS</span>
                             <span class="skill-tag">JavaScript</span>
                             <span class="skill-tag">Docker</span>
                             <span class="skill-tag">MongoDB</span>
@@ -106,9 +110,15 @@
                             <span class="skill-tag">dbt</span>
                             <span class="skill-tag">Data Quality</span>
                             <span class="skill-tag">Data Partitioning</span>
+                            <span class="skill-tag">Data Modeling</span>
                             <span class="skill-tag">Business Intelligence</span>
                             <span class="skill-tag">Data Analytics</span>
                             <span class="skill-tag">Data Lake</span>
+                            <span class="skill-tag">Data Mesh</span>
+                            <span class="skill-tag">Infrastructure as Code</span>
+                            <span class="skill-tag">DevOps</span>
+                            <span class="skill-tag">Monitoring</span>
+                            <span class="skill-tag">Alerting</span>
                             <span class="skill-tag">Logging</span>
                         </div>
                     </div>
@@ -122,6 +132,48 @@
         <div class="container">
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
+                <!-- AWS Data Lake & Data Mesh -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AWS Data Lake & Data Mesh Evolution for Brazilian E-Commerce</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/matheuspassini/sales-analytics" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                                            <p class="project-description">
+                        <strong>AWS infrastructure</strong> built with Terraform and modular architecture. 
+                        Complete Data Lake implementation with S3 (Bronze-Silver-Gold layers), AWS Glue (Database + Crawler + Trigger + Data Catalog), 
+                        CloudWatch monitoring, and IAM security. Features <strong>Infrastructure as Code</strong> with 4 well-organized modules, 
+                        comprehensive documentation, and enterprise-level architecture planning.
+                        <br><br>
+                        <strong>Current Status:</strong> 
+                        <span style="color: #10b981;">Phase 1 Complete</span> - Data Lake Foundation (S3 + IAM + Glue + CloudWatch) |
+                        <span style="color: #f59e0b;">Phase 2 In Progress</span> - Data Mesh Evolution |
+                        <span style="color: #8b5cf6;">Phase 3 Planned</span> - Data Intelligence Platform
+                        <br><br>
+                        <strong>Data Mesh Roadmap:</strong> 
+                        <span style="color: #ef4444;">Data Mesh</span> (domains + governance) + 
+                        <span style="color: #10b981;">Bronze Layer</span> (raw data) + 
+                        <span style="color: #f59e0b;">Silver Layer</span> (cleaned data) + 
+                        <span style="color: #8b5cf6;">Gold Layer</span> (analytics) → 
+                        <span style="color: #7c3aed;">ML Intelligence</span> (predictions + insights)
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Terraform</span>
+                        <span class="tech-tag">AWS S3</span>
+                        <span class="tech-tag">AWS Glue</span>
+                        <span class="tech-tag">CloudWatch</span>
+                        <span class="tech-tag">IAM</span>
+                        <span class="tech-tag">Data Lake</span>
+                        <span class="tech-tag">Data Mesh</span>
+                        <span class="tech-tag">Infrastructure as Code</span>
+                        <span class="tech-tag">DevOps</span>
+                        <span class="tech-tag">Monitoring</span>
+                    </div>
+                </div>
+
                 <!-- Tech Company Big Data -->
                 <div class="project-card">
                     <div class="project-header">
@@ -133,17 +185,20 @@
                         </div>
                     </div>
                     <p class="project-description">
-                        Enterprise-grade Data Lake implementation using Apache Spark and Hadoop with Docker containerization. 
+                        <strong>Enterprise-grade Data Lake implementation</strong> using Apache Spark and Hadoop with Docker containerization. 
                         Features complete Medallion Architecture with Bronze (raw data), Silver (transformed), and Gold (business intelligence) layers. 
-                        Implements comprehensive data quality transformations, intelligent partitioning strategies, and production-ready pipeline orchestration. 
-                        Gold layer provides advanced business intelligence with 10 categories of analytics including workforce composition, 
+                        Implements comprehensive data quality transformations, intelligent partitioning strategies, and production-ready pipeline orchestration.
+                        <br><br>
+                        <strong>Gold Layer Analytics:</strong> Advanced business intelligence with 10 categories including workforce composition, 
                         financial performance, skills analysis, experience metrics, project management, work-life balance, salary analysis, 
-                        temporal trends, regional comparisons, and department health assessment. 
+                        temporal trends, regional comparisons, and department health assessment.
+                        <br><br>
                         <strong>Advanced Data Quality System</strong> with automated flag-based monitoring: 
                         <span style="color: #10b981;">Green flags</span> (0-10% missing values), 
                         <span style="color: #f59e0b;">Yellow flags</span> (10-30% missing values), and 
                         <span style="color: #ef4444;">Red flags</span> (>30% missing values). 
                         Quality reports are automatically partitioned by flags for efficient analysis and proactive issue detection.
+                        <br><br>
                         <strong>Professional Logging System</strong> with Python decorators for enhanced observability: 
                         automatic execution timing, record counting, structured logs with timestamps, and performance monitoring. 
                         All transformation functions are decorated with <code>@log_execution</code> for comprehensive debugging and production monitoring.
