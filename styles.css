@@ -316,6 +316,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    margin-top: 1rem;
 }
 
 .tech-tag {
@@ -327,11 +328,145 @@ body {
     font-weight: 500;
 }
 
+/* Project Results */
+.project-results {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.project-results h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.result-metric {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+}
+
+.result-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 0.25rem;
+}
+
+.result-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.result-desc {
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+
+.quality-breakdown {
+    margin-bottom: 1.5rem;
+}
+
+.quality-breakdown h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.75rem;
+}
+
+.quality-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.quality-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+.quality-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.quality-dot.green {
+    background-color: #10b981;
+}
+
+.quality-dot.yellow {
+    background-color: #f59e0b;
+}
+
+.quality-dot.red {
+    background-color: #ef4444;
+}
+
+.business-impact-summary {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+.business-impact-summary h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.75rem;
+}
+
+.business-impact-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.business-impact-summary li {
+    font-size: 0.9rem;
+    color: #374151;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.business-impact-summary li:before {
+    content: "•";
+    color: #2563eb;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
 /* Contact Section */
 .contact {
     padding: 80px 0;
     background-color: white;
 }
+
 
 .contact-content {
     max-width: 600px;
@@ -460,6 +595,10 @@ body {
 
     .skill-tags {
         justify-content: center;
+    }
+
+    .results-grid {
+        grid-template-columns: 1fr;
     }
 }
 
